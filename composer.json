@@ -1,0 +1,43 @@
+{
+  "name": "imeepo/flarum-auth-qq",
+  "description": "Allow users to log in with QQ",
+  "keywords": [
+    "flarum",
+    "authentication",
+    "QQ"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "*",
+    "fof/components": "^1.0.0",
+    "league/oauth2-client": "^2.2",
+    "laravel/helpers": "^v1.4.1",
+    "ext-json": "*"
+  },
+  "authors": [
+    {
+      "name": "HamZone",
+      "email": "support@imeepo.cn",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "HamZone\\QQAuth\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "QQ Login",
+      "icon": {
+        "name": "fab fa-qq",
+        "backgroundColor": "#14baf8",
+        "color": "#fff"
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}

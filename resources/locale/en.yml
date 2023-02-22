@@ -1,0 +1,28 @@
+imeepo-auth-qq:
+  forum:
+    buttons:
+      login: Log in with QQ
+      link: Link QQ Account
+      unlink: Unlink QQ Account
+    alerts:
+      already_linked: QQ Account is already linked!
+      already_used: QQ Account is already linked to another user!
+      link_success: QQ Account link successful.
+      unlink_success: QQ Account unlink successful.
+      error: Something went wrong, please try again later!  
+    modals:
+      link:
+        title: Link QQ Account
+      unlink:
+        title: Unlink QQ Account
+        info:
+          confirm: Are you sure, you want unlink your QQ account?
+          no_providers: You don't have any others login providers! You'll probably have to reset your password.
+        buttons:
+          confirm: Yes, unlink account
+          cancel: No!   
+  admin:
+    settings:
+      title: QQ Auth Settings
+      api_app_id: API App ID
+      api_app_secret: API App Secret

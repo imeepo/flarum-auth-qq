@@ -1,0 +1,30 @@
+imeepo-auth-qq:
+  forum:
+    buttons:
+      login: QQ账号登录
+      link: 绑定QQ账号
+      unlink: 解绑QQ账号
+    alerts:
+      already_linked: QQ账号已绑定！
+      already_used: 这个QQ账号已被其他用户绑定！
+      link_success: QQ账号绑定成功！
+      unlink_success: QQ账号解绑成功！
+      error: 有些地方出了问题，请稍后再试！
+    modals:
+      link:
+        title: 绑定QQ账号
+      unlink:
+        title: 解绑QQ账号
+        info:
+          confirm: 您确定要解绑QQ账号吗？
+          no_providers: 您没有其他登录手段，请先重置账户密码。
+        buttons:
+          confirm: 是的，我确定
+          cancel: 不，我不确定！
+  admin:
+    settings:
+      title: QQ登录设置
+      api_app_id: API App ID
+      api_app_secret: API App Secret
+      api_mp_app_id: 公众号 App ID
+      api_mp_app_secret: 公众号 App Secret
