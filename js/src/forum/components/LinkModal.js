@@ -33,7 +33,7 @@ export default class LinkModal extends Modal {
         const height = 400;
         const $window = $(window);
 
-        window.open(`${app.forum.attribute('apiUrl')}/${config.api.uri}/link`, `${config.module.id}LinkPopup`,
+        window.open(`${app.forum.attribute('apiUrl')}${config.api.uri}/link`, `${config.module.id}LinkPopup`,
             `width=${width},` +
             `height=${height},` +
             `top=${$window.height() / 2 - height / 2},` +

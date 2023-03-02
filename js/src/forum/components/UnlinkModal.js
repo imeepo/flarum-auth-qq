@@ -61,7 +61,7 @@ export default class UnlinkModal extends Modal {
 
         app.request({
             method: 'POST',
-            url: `${app.forum.attribute('apiUrl')}/${config.api.uri}/unlink`,
+            url: `${app.forum.attribute('apiUrl')}${config.api.uri}/unlink`,
         }).then(() => {
             app.session.user.savePreferences();
             this.hide();
